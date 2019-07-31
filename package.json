@@ -14,7 +14,8 @@
     "test": "standard"
   },
   "bin": {
-    "lps": "./bin.js"
+    "lps": "./bin.js",
+    "lps-spark": "spark.js"
   },
   "repository": {
     "type": "git",
