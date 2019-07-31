@@ -1,0 +1,29 @@
+{
+  "name": "lines-per-second",
+  "version": "0.0.0",
+  "description": "CLI tool that counts how many lines per second is written to it",
+  "main": "bin.js",
+  "dependencies": {
+    "speedometer": "^1.1.0",
+    "split2": "^3.1.1"
+  },
+  "devDependencies": {
+    "standard": "^13.1.0"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "bin": {
+    "lps": "./bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/lines-per-second.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/lines-per-second/issues"
+  },
+  "homepage": "https://github.com/mafintosh/lines-per-second"
+}
